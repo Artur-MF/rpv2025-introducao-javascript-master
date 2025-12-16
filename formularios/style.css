@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(38, 42, 58);
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+
+    h1 {
+        margin-bottom: 20px;
+    }
+
+    color: #fff;
+
+}
+
+.formulario {
+    background: rgba(189, 187, 187, 0.2);
+    padding: 60px;
+    border-radius: 32px;
+    box-shadow: 1px 1px 5px;
+
+}
+
+#form-login {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.input-dados {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+
+    #username {
+        margin-bottom: 10px;
+        border-radius: 24px;
+        padding: 10px;
+        border: 1px solid white;
+    }
+
+    #password {
+        border-radius: 24px;
+        padding: 10px;
+        border: 1px solid white;
+
+    }
+
+    label {
+        margin: 5px 10px;
+    }
+}
+
+.botoes {
+    display: flex;
+
+    #enviar {
+        width: 40%;
+        padding: 8px;
+        border-radius: 32px;
+        background-color: rgba(112, 48, 230, 0.76);
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: 600;
+        border: 1px solid white;
+        cursor: pointer;
+
+
+    }
+
+    #limpar {
+        width: 40%;
+        padding: 12px 12px;
+        border-radius: 32px;
+        background-color: rgba(112, 48, 230, 0.76);
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: 600;
+        border: 1px solid white;
+        cursor: pointer;
+
+
+
+    }
+
+    justify-content: center;
+    gap: 20px;
+}
